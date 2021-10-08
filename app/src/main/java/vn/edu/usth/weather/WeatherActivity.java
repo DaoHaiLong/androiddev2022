@@ -60,5 +60,4 @@ public class WeatherActivity extends AppCompatActivity {
         // Print Log
         Log.i(mess,"onRestart");
     }
-   /**  author : Dao Hai Long */
 }
