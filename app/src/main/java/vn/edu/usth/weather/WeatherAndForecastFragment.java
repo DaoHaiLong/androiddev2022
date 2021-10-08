@@ -65,8 +65,9 @@ public class WeatherAndForecastFragment extends Fragment {
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        ForecastFragment firstFragment = new ForecastFragment();
-        WeatherFragment secondFragement =new WeatherFragment();
+        WeatherFragment firstFragment =new WeatherFragment();
+        ForecastFragment secondFragement = new ForecastFragment();
+
         getChildFragmentManager().beginTransaction().add(R.id.child_Frag_container,firstFragment).add(R.id.child_Frag_container,secondFragement).commit();
     }
 }
