@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".WeatherFragment"
+    android:id="@+id/container">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="12C\nCloudy"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:id="@+id/city_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="35dp"
+            android:text="Paris"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#3000FF00"
+        android:contentDescription="Weather Icon"
+        android:src="@drawable/clouds" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="280dp"
+        android:paddingLeft="100px">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="50px">
+
+                <TextView
+                    android:layout_width="100px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35px"
+                    android:layout_marginTop="50px"
+                    android:text="@string/mon" />
+
+                <ImageView
+                    android:layout_width="300px"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="35px"
+                    android:layout_marginTop="40px"
+                    android:contentDescription="@string/sunny"
+                    android:src="@drawable/partlycloudy" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50px"
+                        android:layout_marginTop="25px"
+                        android:layout_weight="1"
+                        android:text="@string/par" />
+
+                    <TextView
+                        android:id="@+id/temp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70px"
+                        android:layout_weight="1"
+                        android:text="15C - 20C" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35px"
+                    android:layout_marginTop="50px"
+                    android:text="@string/tues" />
+
+                <ImageView
+                    android:layout_width="300px"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="35px"
+                    android:layout_marginTop="40px"
+                    android:contentDescription="@string/par"
+                    android:src="@drawable/cloudyday" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="25px"
+                        android:layout_weight="1"
+                        android:text="@string/clondy" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:text="18C - 23C" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35px"
+                    android:layout_marginTop="50px"
+                    android:text="@string/wed" />
+
+                <ImageView
+                    android:layout_width="300px"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="35px"
+                    android:layout_marginTop="40px"
+                    android:src="@drawable/rainyday" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="25px"
+                        android:layout_weight="1"
+                        android:text="@string/raincloudy" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50px"
+                        android:layout_weight="1"
+                        android:text="15C - 28" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35px"
+                    android:layout_marginTop="50px"
+                    android:text="@string/thu" />
+
+                <ImageView
+                    android:layout_width="300px"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="35px"
+                    android:layout_marginTop="40px"
+                    android:contentDescription="@string/rain"
+                    android:src="@drawable/rain" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50px"
+                        android:layout_marginTop="25px"
+                        android:text="@string/rain" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50px"
+                        android:layout_weight="1"
+                        android:text="12C - 18C" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35px"
+                    android:layout_marginTop="50px"
+                    android:text="@string/fri" />
+
+                <ImageView
+                    android:layout_width="300px"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="35px"
+                    android:layout_marginTop="40px"
+                    android:src="@drawable/sun" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="45px"
+                        android:layout_marginTop="25px"
+                        android:layout_weight="1"
+                        android:text="@string/sunny" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="45px"
+                        android:layout_weight="1"
+                        android:text="27C - 33C" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35px"
+                    android:layout_marginTop="50px"
+                    android:text="@string/sat" />
+
+                <ImageView
+                    android:layout_width="300px"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="35px"
+                    android:layout_marginTop="40px"
+                    android:contentDescription="@string/par"
+                    android:src="@drawable/partlycloudy" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="45px"
+                        android:layout_marginTop="25px"
+                        android:layout_weight="1"
+                        android:text="@string/par" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="45px"
+                        android:layout_weight="1"
+                        android:text="15C - 20C" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35px"
+                    android:layout_marginTop="50px"
+                    android:text="@string/sun" />
+
+                <ImageView
+                    android:layout_width="300px"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="35px"
+                    android:layout_marginTop="40px"
+                    android:contentDescription="@string/snowy"
+                    android:src="@drawable/snowly" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="45px"
+                        android:layout_marginTop="25px"
+                        android:layout_weight="1"
+                        android:text="@string/snowy" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="45px"
+                        android:layout_weight="1"
+                        android:text="1C - 5C" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
