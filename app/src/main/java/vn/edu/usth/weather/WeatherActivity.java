@@ -4,9 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Toast;
 
 public class WeatherActivity extends AppCompatActivity {
     public static final String mess="Android";
@@ -27,6 +31,29 @@ public class WeatherActivity extends AppCompatActivity {
         MediaPlayer mp = MediaPlayer.create(getBaseContext(), R.raw.music);
         mp.start();
   }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.layout, menu);
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.refresh:
+                Toast toast = Toast.makeText(this, "Refresh", Toast.LENGTH_SHORT);
+                toast.show();
+                super.onRestart();
+
+            case R.id.settings:
+                Intent intent = new Intent(this, PrefActivity.class);
+                startActivity(intent);
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+
+
+
     /** Called when the activity is about to become visible. */
     @Override
     protected void onStart() {

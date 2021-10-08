@@ -8,16 +8,20 @@
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/activity_homepage_adapter.xml" value="0.14375" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/activity_homepager_adapter.xml" value="0.14375" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/activity_main.xml" value="0.14375" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/activity_pref.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/activity_weather.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/fragment_first.xml" value="0.14375" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/fragment_forecast.xml" value="0.264" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/fragment_home_adapter.xml" value="0.14375" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/fragment_scrolling.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/fragment_second.xml" value="0.14375" />
-        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/fragment_weather.xml" value="0.176" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/fragment_weather.xml" value="0.12" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/fragment_weather_and_forecast.xml" value="0.1" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/home_frag_pager_adapter_fragment.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/homepage_activity.xml" value="0.14375" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/ic_base_refresh.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/ic_base_setting.xml" value="0.12447916666666667" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/layout.xml" value="0.1" />
         <entry key="..\:/Users/ADMIN/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/main_fragment.xml" value="0.4" />
       </map>
     </option>
