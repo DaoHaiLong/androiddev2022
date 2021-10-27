@@ -10,6 +10,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="280dp"
@@ -34,6 +35,7 @@
         android:layout_marginRight="60dp"
         android:layout_marginTop="25dp"
         android:text="Paris"/>
+
     <ImageView
         android:id="@+id/image"
         android:layout_width="match_parent"
@@ -51,6 +53,11 @@
         android:layout_marginTop="280dp"
         android:layout_marginLeft="80px"
         android:layout_marginRight="80px">
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:id="@+id/logo"/>
+
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
